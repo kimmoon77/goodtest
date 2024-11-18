@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>피자나라치킨공주</title>
-    </head>
-<body>
-    <script>
-        let coupon = parseInt(prompt("쿠폰 개수를 입력하시오"));
+       let coupon = parseInt(prompt("쿠폰 개수를 입력하시오"));
         document.write("쿠폰: " + coupon + "장<hr>");
 
         let travelBagCount = Math.floor(coupon / 20);
@@ -22,6 +15,3 @@
         }
 
         document.write("콜라500ml: " + coupon + "개");
-    </script>
-</body>
-</html>
