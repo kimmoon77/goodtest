@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript 실행</title>
+  </head>
+  <body>
+    <script>
+      let coupon = parseInt(prompt("쿠폰 개수를 입력하시오"));
+      document.write("쿠폰: " + coupon + "장<hr>");
+      coupon = Math.floor(coupon / 5);
+      switch (coupon) {
+        case 2:
+          document.write("권진");
+          break;
+        case 1:
+          document.write("정석");
+          break;
+        default:
+          document.write("승진");
+      }
+    </script>
+  </body>
+</html>
